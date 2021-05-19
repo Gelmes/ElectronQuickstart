@@ -1,0 +1,36 @@
+/* Change background color of buttons on hover */
+.tab-list a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tabl-list a.active {
+    background-color: #ccc;
+}
+
+.btn{
+    margin: 1px;
+    padding: 3px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+textarea.ips{
+    width: 100%;
+    height: 70%;
+}
+
+textarea.output{
+    width: 100%;
+    height: 70%;
+    font-size: x-small;
+}
+
+.tabContentText {
+    white-space: nowrap;
+    width: 100%;
+    height: 50%;
+    /* white-space: pre; */
+    /* overflow-wrap: normal; */
+    overflow: scroll;
+    font-family: 'Courier New', Courier, monospace;
+}
